@@ -8,8 +8,8 @@ describe "Static pages" do
   describe "Home page" do
     before { visit root_path}
 
-    it {should have_content('Home')}
-    it {should have_title("#{base_title} | Home")}
+    # it {should have_content('Home')}
+    it {should have_title("#{base_title}")}
   end
 
   describe "Help page" do
